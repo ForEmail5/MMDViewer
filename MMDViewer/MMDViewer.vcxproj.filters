@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MMDViewer">
+      <UniqueIdentifier>{da93f90d-e8dd-4e0f-9f13-ad53994d061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{fb2a9d7b-3cd7-4c51-94f9-b241f90b97b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMDViewer\Event">
+      <UniqueIdentifier>{6203710a-5db6-4aec-8a43-b9715731ae54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{338d3f38-8256-4ce1-8509-15fe2b536835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMDViewer\Render">
+      <UniqueIdentifier>{bf86f8ed-c9c5-48fd-bec9-a5a170f02aa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Main.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMD\FileReader.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMD\PmdReader.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Debug.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Model.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMDViewer.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMD\PmxReader.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMD\VmdReader.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Event\Event.cpp">
+      <Filter>MMDViewer\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Event\EventDispatcher.cpp">
+      <Filter>MMDViewer\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ImGUI\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ImGUI\imgui_impl_dx11.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MorphController.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PathHelper.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ModelBone.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CeShi.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\AnimationController.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\AnimationClip.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MMD\MmdReader.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GUI.cpp">
+      <Filter>MMDViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\VertexIndexBuffer.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Shader.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RenderWindow.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Renderer.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\D3DGraphicsContext.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Camera.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\D3DState.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Material.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MathLib.cpp">
+      <Filter>MMDViewer\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\MMD\FileReader.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\PmdReader.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\PmdType.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Debug.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Model.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMDViewer.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\PmxReader.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\PmxType.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\VmdReader.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Event\Event.h">
+      <Filter>MMDViewer\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Event\EventDispatcher.h">
+      <Filter>MMDViewer\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ImGUI\imgui_impl_dx11.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MorphController.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PathHelper.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ModelBone.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CeShi.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\AnimationController.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\AnimationClip.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\MmdCommon.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MMD\MmdReader.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Dialog.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GUI.h">
+      <Filter>MMDViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\VertexIndexBuffer.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Texture2D.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Shader.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\RenderWindow.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Renderer.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\D3DGraphicsContext.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Camera.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\D3DState.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Material.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\MathLib.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\D3D.h">
+      <Filter>MMDViewer\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Assets\Shader\Skinning_gs.hlsl" />
+    <FxCompile Include="..\Assets\Shader\Skinning_ps.hlsl" />
+  </ItemGroup>
+</Project>
